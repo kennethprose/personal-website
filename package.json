@@ -1,0 +1,9 @@
+{
+  "name": "PersonalWebsite",
+  "version": "1.0.0",
+  "description": "I'm ashamed I used Wix for as long as I did.",
+  "main": "index.js",
+  "repository": "https://github.com/kennethprose/personal-website.git",
+  "author": "Kenneth <kenneth.rose@stonybrook.edu>",
+  "license": "MIT"
+}
