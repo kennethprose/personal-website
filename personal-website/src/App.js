@@ -1,9 +1,10 @@
 import React from 'react'
-import 'materialize-css/dist/css/materialize.min.css'
 import SplashScreen from './Components/SplashScreen'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
