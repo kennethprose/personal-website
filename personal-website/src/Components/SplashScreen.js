@@ -1,27 +1,20 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import Hike from '../photos/hike.jpg'
-import Plane from '../photos/plane.jpg'
+import { Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-rotating-text'
+var ReactRotatingText = require('react-rotating-text');
 
 function SplashScreen() {  
     return (
         <div className="Panel" style={{height: "100vh"}}>
-            <Carousel controls={false} keyboard={false} pause={false} style={{height: "100vh", position: "absolute"}}>
-                <Carousel.Item style={{height: "100vh"}}>
-                    <img
-                        className="d-block w-100"
-                        src={Hike}
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item style={{height: "100vh"}}>
-                    <img
-                        className="d-block w-100"
-                        src={Plane}
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-            </Carousel>
+            <Row className="no-gutters" style={{backgroundColor: "#212121", height: "100%"}}>
+                <Col sm={2} />
+                <Col sm={8}>
+                    <h1 style={{color: "white", fontSize: "150px", paddingTop: "10%"}}>Hello!</h1>
+                    <h2 style={{color: "white", fontSize: "45px", paddingLeft: "9px"}}>I guess you're hear to learn about Kenny's <ReactRotatingText items={['education.', 'past projects.', 'contact info.']} /></h2> 
+                </Col>
+                <Col sm={2} />
+            </Row>
         </div>
     )
 }
