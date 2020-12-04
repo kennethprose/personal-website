@@ -8,6 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { animateScroll } from "react-scroll";
+import './index.css'
 
 var height = window.innerHeight;
 
