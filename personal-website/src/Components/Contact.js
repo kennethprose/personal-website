@@ -26,9 +26,9 @@ function Contact() {
                     <h4 className="text">Long Island, NY</h4>
                     <br></br>
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <Button variant="outline-light" href="https://www.instagram.com/kenneth.p.rose/" className="social-button"><Instagram></Instagram></Button>
-                        <Button variant="outline-light" href="https://www.linkedin.com/in/kennethpatrickrose/" className="social-button"><Linkedin></Linkedin></Button>
-                        <Button variant="outline-light" href="https://github.com/kennethprose" className="social-button"><GitHub></GitHub></Button>
+                        <Button variant="outline-light" href="https://www.instagram.com/kenneth.p.rose/" target="_blank" className="social-button"><Instagram></Instagram></Button>
+                        <Button variant="outline-light" href="https://www.linkedin.com/in/kennethpatrickrose/" target="_blank" className="social-button"><Linkedin></Linkedin></Button>
+                        <Button variant="outline-light" href="https://github.com/kennethprose" target="_blank" className="social-button"><GitHub></GitHub></Button>
                     </Row>
                 </Col>
                 <Col sm={5}>
