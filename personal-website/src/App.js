@@ -33,7 +33,7 @@ function App() {
         <div>
                 <Container>
                     <Navbar bg="light" variant="light" fixed="top" style={{height: "4%"}}>
-                    <Navbar.Brand href="#home" style={{fontSize: "125%"}}>Kenneth Rose</Navbar.Brand>
+                    <Navbar.Brand style={{fontSize: "125%"}}>Kenneth Rose</Navbar.Brand>
                     <Nav className="mr-auto">
                         <Nav.Link onClick={scrollToHome}>Home</Nav.Link>
                         <Nav.Link onClick={scrollToAbout}>About</Nav.Link>

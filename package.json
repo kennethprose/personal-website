@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/kennethprose/personal-website.git",
   "author": "Kenneth <kenneth.rose@stonybrook.edu>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-feather": "^2.0.9"
+  }
 }
