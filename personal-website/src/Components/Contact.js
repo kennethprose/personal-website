@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import profile from '../Profile_Pic.jpg'
-import { Instagram, Linkedin, GitHub } from 'react-feather';
+import { Instagram, Linkedin, GitHub, Loader } from 'react-feather';
 import Button from 'react-bootstrap/Button'
 
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
         <div className="Panel" style={{height: "100vh", backgroundColor: "#111111"}}>
             <Row className="no-gutters" style={{height: "30%"}}>
                 <Col sm={12}>
-                    <h1 className="text" style={{paddingTop: "10%"}}>Get in touch!</h1>
+                    <h1 className="text" style={{paddingTop: "10%", fontSize: "45px"}}>Get in touch!</h1>
                 </Col>
             </Row>
             <Row className="no-gutters" style={{height: "70%"}}>
@@ -32,7 +32,11 @@ function Contact() {
                     </Row>
                 </Col>
                 <Col sm={5}>
-                    
+                    <Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <Loader color="white" size={75} style={{ marginTop: "15%" }}></Loader>
+                    </Row>
+                    <br></br>
+                    <h4 className="text">Work In Progress!</h4>
                 </Col>
                 <Col sm={1}>
                     
