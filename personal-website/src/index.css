@@ -39,3 +39,25 @@
     margin-right: 10px;
     position: relative;
 }
+
+.card {
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card_pic {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.project_github {
+    width: 85%;
+    border-radius: 5px 30px 5px 30px;
+    align-self: center;
+    position: absolute;
+    bottom: 4%;
+}
