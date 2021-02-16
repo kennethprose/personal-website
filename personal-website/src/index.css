@@ -125,3 +125,17 @@
 li {
     margin-bottom: 20px;
 }
+
+.skill {
+    height: 8%;
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 5%;
+}
+
+.skill_name {
+    color: white;
+    margin-left: 1%;
+    font-size: 30px;
+}
