@@ -8,6 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { animateScroll } from "react-scroll";
+import Button from 'react-bootstrap/Button'
 import './index.css'
 
 var height = window.innerHeight;
@@ -33,13 +34,14 @@ function App() {
         <div>
                 <Container>
                     <Navbar bg="light" variant="light" fixed="top" style={{height: "4%"}}>
-                    <Navbar.Brand style={{fontSize: "125%"}}>Kenneth Rose</Navbar.Brand>
-                    <Nav className="mr-auto">
-                        <Nav.Link onClick={scrollToHome}>Home</Nav.Link>
-                        <Nav.Link onClick={scrollToAbout}>About</Nav.Link>
-                        <Nav.Link onClick={scrollToProjects}>Projects</Nav.Link>
-                        <Nav.Link onClick={scrollToContact}>Contact</Nav.Link>
-                    </Nav>
+                        <Navbar.Brand style={{fontSize: "125%"}}>Kenneth Rose</Navbar.Brand>
+                        <Nav className="mr-auto">
+                            <Nav.Link onClick={scrollToHome}>Home</Nav.Link>
+                            <Nav.Link onClick={scrollToAbout}>About</Nav.Link>
+                            <Nav.Link onClick={scrollToProjects}>Projects</Nav.Link>
+                            <Nav.Link onClick={scrollToContact}>Contact</Nav.Link>
+                        </Nav>
+                        <Button variant="light" href="Kenneth Rose Resume.pdf" target="_blank">Resume</Button>
                     </Navbar>
                 </Container>
                 <SplashScreen id="splashscreen" />
