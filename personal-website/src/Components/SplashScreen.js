@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-rotating-text'
-import icons from '../Triple_Black.png'
+import icons from '../images/Triple_Black.png'
 var ReactRotatingText = require('react-rotating-text');
 
 function SplashScreen() {  

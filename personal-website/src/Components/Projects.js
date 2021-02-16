@@ -1,8 +1,8 @@
 import React from 'react'
-import icons from '../Triple_Black.png'
-import personal_website from '../Personal-Website.png'
-import ToDo_website from '../ToDo-Website.png'
-import Set_Cover from '../Set_Cover.png'
+import icons from '../images/Triple_Black.png'
+import personal_website from '../images/Personal-Website.png'
+import ToDo_website from '../images/ToDo-Website.png'
+import Set_Cover from '../images/Set_Cover.png'
 import { Row } from 'react-bootstrap';
 import { GitHub } from 'react-feather';
 import Button from 'react-bootstrap/Button'

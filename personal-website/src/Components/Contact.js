@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
-import profile from '../Profile_Pic.jpg'
+import profile from '../images/Profile_Pic.jpg'
 import { Instagram, Linkedin, GitHub, Loader } from 'react-feather';
 import Button from 'react-bootstrap/Button'
 

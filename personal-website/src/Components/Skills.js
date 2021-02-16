@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import { Line } from 'rc-progress';
-import icons from '../Triple_Black.png';
+import icons from '../images/Triple_Black.png';
 
 function Skills() {
     return (
