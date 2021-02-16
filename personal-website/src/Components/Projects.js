@@ -10,7 +10,10 @@ import Button from 'react-bootstrap/Button'
 function Projects() {
     return (
         <div className="Panel" style={{height: "100vh"}}>
-            <Row className="no-gutters" style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "90%" }}>
+            <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "15%" }}>
+                <h1 className="text" style={{ alignSelf: "end", marginLeft: "50%", transform: "translate(-50%, 0%)" }}>My Projects</h1>
+            </Row>
+            <Row className="no-gutters" style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "75%" }}>
                 <div className="card">
                     <img className="card_pic" src={personal_website} alt="A preview of the project"></img>
                     <h2 style={{ textAlign: "center", lineHeight: "125%", marginTop: "5%" }}><u>This Website!</u></h2>
@@ -26,12 +29,12 @@ function Projects() {
                 <div className="card">
                     <img className="card_pic" src={Set_Cover} alt="A preview of the project"></img>
                     <h2 style={{ textAlign: "center", lineHeight: "125%", marginTop: "5%" }}><u>Set Cover Algorithm</u></h2>
-                    <h4 style={{ textAlign: "center", lineHeight: "125%", marginTop: "5%", width: "90%", alignSelf: "center", color: "DimGrey" }}>Code that will calculate the <a href="https://en.wikipedia.org/wiki/Set_cover_problem" target="_blank">set cover</a> of a set. This NP-complete problem is solved efficiently by backtracking and pruning the data.</h4>
+                    <h4 style={{ textAlign: "center", lineHeight: "125%", marginTop: "5%", width: "90%", alignSelf: "center", color: "DimGrey" }}>Code that will calculate the <a href="https://en.wikipedia.org/wiki/Set_cover_problem" target="_blank" rel="noopener noreferrer" style={{ color: "mediumpurple" }}>set cover</a> of a set. This NP-complete problem is solved efficiently by backtracking and pruning the data.</h4>
                     <Button variant="outline-dark" href="https://github.com/kennethprose/Set_Cover" target="_blank" className="project_github" style={{ marginTop: "5%" }}><GitHub></GitHub></Button>
                 </div>
             </Row>
             <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "10%" }}>
-                <Button variant="light" href="https://github.com/kennethprose" target="_blank" style={{ fontSize: "25px", borderRadius: "10px", alignSelf: "start", marginLeft: "50%", transform: "translate(-50%, -50%)" }}>Check out the rest of my GitHub!</Button>
+                <Button variant="light" href="https://github.com/kennethprose" target="_blank" style={{ fontSize: "25px", borderRadius: "10px", alignSelf: "start", marginLeft: "50%", marginTop: "1%", transform: "translate(-50%, -50%)" }}>Check out the rest of my GitHub!</Button>
             </Row>
             
         </div>

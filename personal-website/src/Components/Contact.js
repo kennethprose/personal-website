@@ -21,7 +21,7 @@ function Contact() {
                     <hr id="line" />
                     <h2 className="text">Kenneth P. Rose</h2>
                     <br></br>
-                    <h4 className="text">rosekenny12@gmail.com</h4>
+                    <h4 className="text"><a id="email" href="mailto:rosekenny12@gmail.com" target="_blank" rel="noopener noreferrer">rosekenny12@gmail.com</a></h4>
                     <h4 className="text">516-359-1840</h4>
                     <h4 className="text">Long Island, NY</h4>
                     <br></br>

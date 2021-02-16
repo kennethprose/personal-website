@@ -41,7 +41,7 @@
 }
 
 .card {
-    height: 75%;
+    height: 85%;
     width: 20%;
     background-color: white;
     margin-left: 2%;
@@ -55,6 +55,56 @@
     margin-left: 5%;
 }
 
+.course {
+    height: 8%;
+    width: 70%;
+    background-color: #111111;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 15px;
+    border-left: solid white 8px;
+    border-bottom: solid white 2px;
+    border-top: solid white 2px;
+    border-right: solid white 2px;
+    margin-top: 20px;
+    transition: background-color 0.4s, border-left 0.4s, border-bottom 0.4s, border-top 0.4s, border-right 0.4s;
+}
+
+.course:hover {
+    height: 8%;
+    width: 70%;
+    background-color: white;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 15px;
+    border-left: solid mediumpurple 8px;
+    border-bottom: solid mediumpurple 2px;
+    border-top: solid mediumpurple 2px;
+    border-right: solid mediumpurple 2px;
+    margin-top: 20px;
+}
+
+.course_title {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    pointer-events: none;
+}
+
+.course:hover .course_title {
+    color: black;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    pointer-events: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .project_github {
     width: 85%;
     border-radius: 5px 30px 5px 30px;
@@ -62,3 +112,12 @@
     position: absolute;
     bottom: 4%;
 }
+
+#email:link {
+    text-decoration: none;
+    color: mediumpurple;
+  }
+  
+#email:hover {
+    text-decoration: none;
+  }
