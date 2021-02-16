@@ -116,8 +116,12 @@
 #email:link {
     text-decoration: none;
     color: mediumpurple;
-  }
+}
   
 #email:hover {
     text-decoration: none;
-  }
+}
+
+li {
+    margin-bottom: 20px;
+}

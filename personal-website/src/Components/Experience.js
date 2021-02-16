@@ -71,6 +71,18 @@ function Experience() {
                 <Col sm={5}>
                     <h1 style={{ color: "white", lineHeight: "125%", paddingTop: "15%", textAlign: "center" }}>Employment</h1>
                     <hr style={{ width: "150px", border: "1px solid white", alignSelf: "end" }} />
+                    <br />
+                    <h2 style={{ color: "white", marginLeft: "5%" }}>Lead IT Technician / Workbench Manager</h2>
+                    <h3 style={{ color: "silver", marginLeft: "5%" }}>Stony Brook University Campus Residences</h3>
+                    <h3 style={{ color: "silver", marginLeft: "5%" }}>September 2019 - Present</h3>
+                    <br />
+                    <ul style={{ color: "white", marginLeft: "10%" }}>
+                        <li><h3>Assist staff and students via telephone, email, helpdesk tickets, in-person visits, and remote access.</h3></li>
+                        <li><h3>Install, upgrade, troubleshoot and repair desktop computers, laptops, phones, IoT devices, etc.</h3></li>
+                        <li><h3>Utilized KACE Endpoint Management to ensure all devices on the network were up to date and secure.</h3></li>
+                        <li><h3>Document newly formed procedures and update existing documentation.</h3></li>
+                        <li><h3>Excellent written and interpersonal communication skills.</h3></li>
+                    </ul>
                 </Col>
                 <Col sm={1} />
             </Row>
