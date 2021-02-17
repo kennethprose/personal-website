@@ -11,8 +11,8 @@ function SplashScreen() {
             <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "100%"}}>
                 <Col sm={2} />
                 <Col sm={8}>
-                    <h1 style={{color: "white", fontSize: "150px", paddingTop: "20%"}}>Hello!</h1>
-                    <h2 style={{color: "white", fontSize: "45px", paddingLeft: "9px"}}>I guess you're hear to learn about Kennys <ReactRotatingText items={['education', 'past projects', 'skills', 'contact info' ]} /></h2> 
+                    <h1 style={{color: "white", fontSize: "150px", paddingTop: "20%", paddingLeft: "5%"}}>Hello!</h1>
+                    <h2 style={{color: "white", fontSize: "45px", paddingLeft: "5%"}}>I guess you're hear to learn about my <ReactRotatingText items={['education', 'past projects', 'skills', 'contact info' ]} /></h2> 
                 </Col>
                 <Col sm={2} />
             </Row>
