@@ -53,7 +53,7 @@ function App() {
                             <Nav.Link onClick={scrollToSkills}>Skills</Nav.Link>
                             <Nav.Link onClick={scrollToContact}>Contact</Nav.Link>
                         </Nav>
-                        <Button variant="light" href="Kenneth Rose Resume.pdf" target="_blank">Resume</Button>
+                        <Button variant="light" href="Kenneth_Rose_Resume.pdf" target="_blank">Resume</Button>
                     </Navbar>
                 </Container>
                 <SplashScreen id="splashscreen" />

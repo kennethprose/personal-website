@@ -11,7 +11,7 @@ function Projects() {
     return (
         <div className="Panel" style={{height: "100vh"}}>
             <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "15%" }}>
-                <h1 className="text" style={{ alignSelf: "end", marginLeft: "50%", transform: "translate(-50%, 0%)" }}>My Projects</h1>
+                <h1 className="text" style={{ alignSelf: "end", marginLeft: "50%", transform: "translate(-50%, 0%)" }}><u>My Projects</u></h1>
             </Row>
             <Row className="no-gutters" style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "75%" }}>
                 <div className="card">

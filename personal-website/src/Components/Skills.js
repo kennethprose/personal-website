@@ -9,7 +9,7 @@ function Skills() {
             <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "100%"}}>
                 <Col sm={1} />
                 <Col sm={5}>
-                    <h1 className="text experience_title">Technical Skills</h1>
+                    <h1 className="text experience_title"><u>Technical Skills</u></h1>
                     <br />
                     <div className="skill">
                         <h4 className="skill_name">React</h4>
@@ -37,7 +37,7 @@ function Skills() {
                     </div>
                 </Col>
                 <Col sm={5}>
-                    <h1 className="text experience_title">Soft Skills</h1>
+                    <h1 className="text experience_title"><u>Soft Skills</u></h1>
                     <br />
                     <div className="skill">
                         <h4 className="skill_name">Communication</h4>

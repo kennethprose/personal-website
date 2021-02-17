@@ -7,12 +7,12 @@ import Button from 'react-bootstrap/Button'
 function Contact() {
     return (
         <div className="Panel" style={{height: "100vh", backgroundColor: "#111111"}}>
-            <Row className="no-gutters" style={{height: "30%"}}>
+            <Row className="no-gutters" style={{height: "25%"}}>
                 <Col sm={12}>
-                    <h1 className="text" style={{paddingTop: "10%", fontSize: "45px"}}>Get in touch!</h1>
+                    <h1 className="text" style={{fontSize: "45px", marginTop: "6%"}}>Get in touch!</h1>
                 </Col>
             </Row>
-            <Row className="no-gutters" style={{height: "70%"}}>
+            <Row className="no-gutters" style={{height: "75%"}}>
                 <Col sm={1}>
 
                 </Col>
