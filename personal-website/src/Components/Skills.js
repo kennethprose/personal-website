@@ -6,7 +6,7 @@ import icons from '../images/Triple_Black.png';
 function Skills() {
     return (
         <div className="Panel" style={{height: "100vh"}}>
-            <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "100%"}}>
+            <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", backgroundSize: "cover", height: "100%"}}>
                 <Col sm={1} />
                 <Col sm={5}>
                     <h1 className="text experience_title"><u>Technical Skills</u></h1>

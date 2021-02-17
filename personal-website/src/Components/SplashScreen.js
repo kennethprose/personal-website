@@ -8,7 +8,7 @@ var ReactRotatingText = require('react-rotating-text');
 function SplashScreen() {  
     return (
         <div className="Panel" style={{height: "100vh"}}>
-            <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "100%"}}>
+            <Row className="no-gutters" style={{backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", backgroundSize: "cover", height: "100%"}}>
                 <Col sm={2} />
                 <Col sm={8}>
                     <h1 style={{color: "white", fontSize: "150px", paddingTop: "20%", paddingLeft: "5%"}}>Hello!</h1>

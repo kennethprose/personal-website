@@ -10,10 +10,10 @@ import Button from 'react-bootstrap/Button'
 function Projects() {
     return (
         <div className="Panel" style={{height: "100vh"}}>
-            <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "15%" }}>
+            <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", backgroundSize: "cover", height: "15%" }}>
                 <h1 className="text" style={{ alignSelf: "end", marginLeft: "50%", transform: "translate(-50%, 0%)" }}><u>My Projects</u></h1>
             </Row>
-            <Row className="no-gutters" style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "75%" }}>
+            <Row className="no-gutters" style={{ display: "flex", alignItems: "center", justifyContent: "center", backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", backgroundSize: "cover", height: "75%" }}>
                 <div className="card">
                     <img className="card_pic" src={personal_website} alt="A preview of the project"></img>
                     <h2 className="card_name"><u>This Website!</u></h2>
@@ -33,7 +33,7 @@ function Projects() {
                     <Button variant="outline-dark" href="https://github.com/kennethprose/Set_Cover" target="_blank" className="project_github" style={{ marginTop: "5%" }}><GitHub></GitHub></Button>
                 </div>
             </Row>
-            <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", height: "10%" }}>
+            <Row className="no-gutters" style={{ backgroundImage: 'url('+icons+')', backgroundAttachment: "fixed", backgroundSize: "cover", height: "10%" }}>
                 <Button variant="light" href="https://github.com/kennethprose" target="_blank" style={{ fontSize: "25px", borderRadius: "10px", alignSelf: "start", marginLeft: "50%", marginTop: "1%", transform: "translate(-50%, -50%)" }}>Check out the rest of my GitHub!</Button>
             </Row>
             
