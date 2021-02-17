@@ -47,7 +47,7 @@ function Experience() {
             <Row className="no-gutters" style={{height: "100%"}}>
                 <Col sm={1} />
                 <Col sm={5}>
-                    <h1 style={{ color: "white", lineHeight: "125%", paddingTop: "15%", textAlign: "center" }}>Education</h1>
+                    <h1 className="experience_title">Education</h1>
                     <hr style={{ width: "150px", border: "1px solid white" }} />
                     <br />
                     <h2 style={{ color: "white" }}>Stony Brook University</h2>
@@ -69,8 +69,8 @@ function Experience() {
                     </div>
                 </Col>
                 <Col sm={5}>
-                    <h1 style={{ color: "white", lineHeight: "125%", paddingTop: "15%", textAlign: "center" }}>Employment</h1>
-                    <hr style={{ width: "150px", border: "1px solid white", alignSelf: "end" }} />
+                    <h1 className="experience_title">Employment</h1>
+                    <hr style={{ width: "150px", border: "1px solid white" }} />
                     <br />
                     <h2 style={{ color: "white", marginLeft: "5%" }}>Lead IT Technician / Workbench Manager</h2>
                     <h3 style={{ color: "silver", marginLeft: "5%" }}>Stony Brook University Campus Residences</h3>
