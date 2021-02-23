@@ -11,12 +11,12 @@ function About() {
                     <img id="profile" src={profile} alt="An incredibly handsome man" />
                 </Col>
                 <Col sm={7}>
-                    <h1 className="text" style={{paddingTop: "15%"}}>A little about me</h1>
+                    <h1 className="text" style={{paddingTop: "15%", fontSize: "4vh"}}>A little about me</h1>
                     <hr id="line" />
-                    <h4 className="text" style={{paddingLeft: "5%", paddingRight: "5%", fontSize: "27px", lineHeight: "150%"}}>I am a driven and solution-oriented Computer Scientist and Mathematician with a rapidly expanding repertoire of professional skills. I have developed a proficiency in numerous programming languages including Java, JavaScript, Python and C. Additionally, I have used my experience as an Lead IT Technician to develop strong communication, teamwork, and customer service skills. In my free time, I volunteer as an Assistant Scout Master for Troop 261, my local Boy Scout troop, where I achieved the rank of Eagle Scout. With a fast-approaching graduation from Stony Brook University, I am excited and prepared to enter the industry and get hands-on experience in programming, information security, and networking.</h4>
+                    <h4 className="text" style={{paddingLeft: "5%", paddingRight: "5%", fontSize: "1.5vw", lineHeight: "150%", display: "inline-block"}}>I am a driven and solution-oriented Computer Scientist and Mathematician with a rapidly expanding repertoire of professional skills. I have developed a proficiency in numerous programming languages including Java, JavaScript, Python and C. Additionally, I have used my experience as an Lead IT Technician to develop strong communication, teamwork, and customer service skills. In my free time, I volunteer as an Assistant Scout Master for Troop 261, my local Boy Scout troop, where I achieved the rank of Eagle Scout. With a fast-approaching graduation from Stony Brook University, I am excited and prepared to enter the industry and get hands-on experience in programming, information security, and networking.</h4>
                     <br />
                     <br />
-                    <h1 className="text">Resume</h1>
+                    <h1 className="text" style={{ fontSize: "4vh" }}>Resume</h1>
                     <hr id="line" />
                     <a type="button" class="btn btn-outline-light resume" href="Kenneth_Rose_Resume.pdf" target="_blank">View/Download My Resume</a>
                 </Col>
