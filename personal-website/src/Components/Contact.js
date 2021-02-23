@@ -13,10 +13,8 @@ function Contact() {
                 </Col>
             </Row>
             <Row className="no-gutters" style={{height: "75%"}}>
-                <Col sm={1}>
-
-                </Col>
-                <Col sm={5}>
+                <Col sm={1} style={{ height: "100%" }} />
+                <Col sm={5} style={{ height: "100%" }}>
                     <img id="profile2" src={profile} alt="An incredibly handsome man" />
                     <hr id="line" />
                     <h2 className="text">Kenneth P. Rose</h2>
@@ -31,16 +29,14 @@ function Contact() {
                         <Button variant="outline-light" href="https://github.com/kennethprose" target="_blank" className="social-button"><GitHub></GitHub></Button>
                     </Row>
                 </Col>
-                <Col sm={5}>
+                <Col sm={5} style={{ height: "100%" }}>
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <Loader color="white" size={75} style={{ marginTop: "15%" }}></Loader>
                     </Row>
                     <br></br>
                     <h4 className="text">Work In Progress!</h4>
                 </Col>
-                <Col sm={1}>
-                    
-                </Col>
+                <Col sm={1} style={{ height: "100%" }} />
             </Row>
         </div>
     )
