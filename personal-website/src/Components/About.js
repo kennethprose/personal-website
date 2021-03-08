@@ -18,7 +18,7 @@ function About() {
                     <br />
                     <h1 className="text" style={{ fontSize: "4vh" }}>Resume</h1>
                     <hr id="line" />
-                    <a type="button" class="btn btn-outline-light resume" href="Kenneth_Rose_Resume.pdf" target="_blank">View/Download My Resume</a>
+                    <a type="button" className="btn btn-outline-light resume" href="Kenneth_Rose_Resume.pdf" target="_blank">View/Download My Resume</a>
                 </Col>
                 <Col sm={1} />
             </Row>
